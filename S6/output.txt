@@ -1,0 +1,18 @@
+FIFO - Fixed-Local Replacement:
+PID  Process Name      Turnaround Time  # Faults  Fault Times
+1    P1.txt            58               6         {0, 12, 25, 35, 43, 51}
+2    P2.txt            55               5         {0, 22, 29, 40, 48}
+3    P3.txt            51               3         {0, 27, 44}
+4    P4.txt            95               9         {0, 25, 41, 48, 56, 63, 72, 80, 88}
+5    P5.txt            116              13        {0, 15, 26, 37, 45, 53, 61, 68, 75, 82, 90, 101, 109}
+6    P6.txt            106              11        {0, 15, 26, 38, 45, 53, 63, 72, 80, 90, 99}
+
+
+FIFO - Variable-Global Replacement:
+PID  Process Name      Turnaround Time  # Faults  Fault Times
+1    P1.txt            60               6         {0, 12, 24, 35, 45, 53}
+2    P2.txt            56               5         {0, 22, 30, 38, 47}
+3    P3.txt            68               5         {0, 22, 36, 47, 61}
+4    P4.txt            99               9         {0, 24, 38, 47, 58, 67, 75, 83, 91}
+5    P5.txt            126              13        {0, 15, 24, 36, 45, 57, 66, 74, 82, 91, 100, 111, 119}
+6    P6.txt            108              11        {0, 15, 24, 36, 47, 57, 68, 76, 83, 92, 100}
